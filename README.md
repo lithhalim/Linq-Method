@@ -24,6 +24,12 @@
       {
          return data.Grade == 9;
       }
+  
+  var collection1 = new List<object> { 1, "two", 3.0 };
+  var collection2 = new List<int> { 1, 2, 3 };
+  var ofType1 = collection1.OfType<int>();
+  var ofType2 = collection2.OfType<int>();
+
 ```
 
 ##  projection operator (Use To Map Data)
